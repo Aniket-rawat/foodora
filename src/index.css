@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1440px !important;
+    margin: auto;
+}
+
+.nav .active {
+    color: #e17100 !important;
+}
+
+.btn-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #7d7c7cb7;
+    padding: 6px 18px;
+    border-radius: 2rem;
+}
+
+/* Hero Section */
+
+.hero {
+    background: url(./assets/bg.png) no-repeat center/cover;
+}
+
+.hero p {
+    color: #fff !important;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+
+    color: #626060;
+    font-weight: 500;
+}
+
+.popularfood h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.popularfood p {
+    font-size: 16px;
+
+}
+
+.popularfood .textcolor {
+    font-weight: 700;
+    color: #e17100 !important;
+}
+
+footer p,
+ul {
+    color: rgb(150, 150, 150) !important;
+    font-size: 16px;
+}
